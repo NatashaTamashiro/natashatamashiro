@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Natasha Tamashiro</title>
+    <link rel="icon" href="../img/logo.png" type="image/x-icon" />
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    
+    <link href="../shadowbox/shadowbox.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../shadowbox/shadowbox.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+  <!-- nav -->
+      <div class="nav-wrapper">
+        <div class="grad-bar"></div>
+       </div>
+   
+       <div class="container-fluid">
+           <nav class="container">
+             <div style="display: flex;align-items: center; justify-content: space-between;">
+             <img src="../img/Logo.png" alt="Love, Innovation & Design" style="width: 50px;">
+             <ul class="nav justify-content-end" style="display: flex;align-items: center; float: right; ">
+               <li class="nav-item">
+                 <a class="nav-link active" href="../index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="../portfolio.html">Portfolio</a>
+               </li>           
+             </ul>
+           </div>
+           </nav>
+        <!-- end nav -->
+    </div>
+
+    
+    <!-- main-container -->
+    <div class="container main-container">
+        <div class="col-md-12">
+            <h3 class="text-uppercase">Diablo 1 Original</h3>
+            <h5>Código fonte reconstruído.</h5>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-12">
+          <p>Dentre muitas saudades da infância, jogos de Atari, Mega drive e Playstation 1 são algumas dela.<br>
+          E hoje o assunto é <b>Diablo 1</b>!</p>
+
+            <p>O jogo se encontra em uma porta da web (você consegue jogar web e mobile) e foi reconstruído pelo GalaXyHaXz e pela equipe de Devilution. <br>
+            Eles removeram toas as dependências e expuseram a interface mínima necessária com JS, permitindo que o jogo seja compliado no WebAssembly.</p>
+
+            <p>Todas as informações necessárias você encontra no site: <b><a href="https://github.com/d07RiV/diabloweb" target="_blank">Github</a></b> <br>
+            Para acessar o jogo, basta entrar neste link: <a href="https://d07riv.github.io/diabloweb/" target="_blank"><b>Play</b></a>  <span class="miniFonte"> ~O melhor de tudo é que o jogo fica salvo! <3 </span></p>
+
+            <p>Ótimo jogo! </p>
+          
+            <a href="../contents/diablo-1.jpg" rel="shadowbox"">
+              <img src="../contents/diablo-1.jpg" rel="shadowbox" class="imgZoom">
+            </a>
+            <br>
+            <p>Dúvidas? Sugestões? Quer bater um papo? <br>
+            Entre em contato, ficarei muito feliz em receber uma mensagem!</p>
+          </div>
+          
+    </div>
+       
+
+   <!-- footer -->
+   <footer>
+    <div class="container-fluid">
+        <p class="copyright">© Love, Innovation & Design 2020</p>
+    </div>
+</footer>
+<div class="nav-wrapper">
+  <div class="grad-bar"></div>
+ </div>
+<!-- end footer -->
+    
+    
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+    <!-- jQuery -->
+    <script src="../js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/animated-headline.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="../js/custom.js"></script>
+    <script>
+
+      Shadowbox.init({  
+      language: 'pt',  
+      player: ['img', 'html', 'swf','pdf']  
+      });
+      function _GET(action)
+      {
+        var url   = window.location.search.replace("?pg", "");
+        var itens = url.split("&");
+      
+        for(n in itens)
+        {
+          if( itens[n].match(name) )
+          {
+            return decodeURIComponent(itens[n].replace(name+"=", ""));
+          }
+        }
+        return null;
+      }
+      </script>
+
+</body>
+
+</html>
