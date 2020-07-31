@@ -20,6 +20,12 @@
 nav{
   margin-top: 30px;
 }
+.nav>li>a{
+  color: #393939;
+}
+.nav>li>a:hover{
+  color: #EF0B5D;
+}
 
 .nav-wrapper {
   width: 100%;
