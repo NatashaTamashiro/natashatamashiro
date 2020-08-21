@@ -26,7 +26,6 @@ nav{
 .nav>li>a:hover{
   color: #EF0B5D;
 }
-
 .nav-wrapper {
   width: 100%;
   position: -webkit-sticky; /* Safari */
@@ -34,7 +33,6 @@ nav{
   top: 0;
   background-color: #fff;
 }
-
 .grad-bar {
   width: 100%;
   height: 10px;
@@ -44,7 +42,9 @@ nav{
 	-moz-animation: gradbar 15s ease infinite;
 	animation: gradbar 8s ease infinite;
 }
-
+p {
+  margin-top: 25px;
+}
 
 
 /* SECTIONS */
